@@ -59,10 +59,6 @@ In **Task 2**, the rules are modified:
 - **Policy Iteration** and **Value Iteration** are compared to determine the best strategy for the gambler under different conditions.
 - **Discount Factor**: The effect of changing the discount factor (\( \gamma \)) on the optimal policy is analyzed.
 
-**Figures** (saved in the `results/` folder):
-- Policy and value plots for \( p_h = 0.25 \) and \( p_h = 0.55 \).
-- Comparison of Value Iteration and Policy Iteration results.
-
 ## Folder Structure
 
 The project is organized as follows:

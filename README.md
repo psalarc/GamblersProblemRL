@@ -32,11 +32,13 @@ In **Task 2**, the rules are modified:
   \[
   V(s) = \max_a \left( p_h · V(s + a) + (1 - p_h) · V(s - a) \right)
   \]
-  Where:
+  <br> Where:
 - \( V(s) \) is the value of the state \( s \),
 - \( a \) is the action taken,
 - \( p_h \) is the probability of heads (the coin flip probability),
 - \( V(s + a) \) and \( V(s - a) \) are the values of the next state after winning or losing the bet, respectively.
+
+  
 - **Policy Iteration**: Alternates between policy evaluation and policy improvement, refining the policy and value function until convergence.
 
 ### Task 2: Modified Gambling Rules

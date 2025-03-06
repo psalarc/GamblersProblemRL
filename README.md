@@ -10,8 +10,8 @@ The project includes two main tasks:
 
 The **Gambler's Problem** is an episodic, finite Markov Decision Process (MDP), where the gambler makes bets on a sequence of coin flips. The gambler's capital is represented by the state, and the action is the amount of money staked on each flip. The goal is to maximize the probability of reaching a capital of $100 before running out of money.
 
-- The **states** represent the gambler's capital, \( s \in \{1, 2, 3, \dots, 99\} \), with terminal states at \( s = 0 \) (gambling loses) and \( s = 100 \) (gambling wins).
-- The **actions** are stakes, \( a \in \{0, 1, 2, \dots, \min(s, 100 - s)\} \), meaning the gambler can stake between 0 and the minimum of their current capital \( s \) or the amount needed to reach $100.
+- The **states** represent the gambler's capital, \( s \in \{1, 2, 3, ..., 99\} \), with terminal states at \( s = 0 \) (gambling loses) and \( s = 100 \) (gambling wins).
+- The **actions** are stakes, \( a \in \{0, 1, 2, ..., \min(s, 100 - s)\} \), meaning the gambler can stake between 0 and the minimum of their current capital \( s \) or the amount needed to reach $100.
 - The **reward** is 0 except when the gambler reaches $100, at which point the reward is +1.
 - The problem is solved using **Value Iteration** and **Policy Iteration**.
 
